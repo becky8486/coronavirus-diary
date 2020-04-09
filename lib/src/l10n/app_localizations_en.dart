@@ -469,4 +469,13 @@ If you do so, you will be asked for your consent again. You can then accept it a
 
   @override
   String get locationStepCountryButtonLabel => 'Country:';
+
+  @override
+  String get statisticsLabelCases => 'Cases';
+
+  @override
+  String get statisticsLabelDeaths => 'Deaths';
+
+  @override
+  String get statisticsLabelRecoveries => 'Recoveries';
 }

@@ -482,6 +482,15 @@ abstract class AppLocalizations {
 
   // Label for the dropdown button that selects a country.
   String get locationStepCountryButtonLabel;
+
+  // Label for Cases statistics on the statistics screen.
+  String get statisticsLabelCases;
+
+  // Label for Deaths statistics on the statistics screen.
+  String get statisticsLabelDeaths;
+
+  // Label for Recoveries statistics on the statistics screen.
+  String get statisticsLabelRecoveries;
 }
 
 class _AppLocalizationsDelegate
